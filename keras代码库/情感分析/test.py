@@ -12,7 +12,6 @@ from keras import Sequential
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils import np_utils
 
-
 def read_data(data_path):
     senlist = []
     labellist = []
