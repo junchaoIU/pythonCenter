@@ -71,7 +71,7 @@ def read_data(data_path):
     # data = abnormal_detect(data)
 
     # 日期格式转换
-    data['order_date'] = pd.to_datetime(data['order_date'], format='%Y-%m-%d')  # 将字符串转换为日期格式
+    data['order_date'] = pd.to_datetime(data['order_date'],format='%Y-%m-%d')  # 将字符串转换为日期格式
     print('data Dtypes:')
     print(data.dtypes)  # 打印输出数据框所有列的数据类型
     print('-' * 60)
