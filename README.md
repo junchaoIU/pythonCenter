@@ -1,4 +1,4 @@
-[![license](https://img.shields.io/badge/author-WuJunchao-purple)](https://github.com/junchaoIU/pythonCenter/blob/main/LICENSE)
+[![author](https://img.shields.io/badge/author-WuJunchao-purple)](https://github.com/junchaoIU)
 [![license](https://img.shields.io/crates/l/rustc-serialize)](https://github.com/junchaoIU/pythonCenter/blob/main/LICENSE)
 [![python](https://img.shields.io/badge/python-3.7.6-yellowgreen)](https://github.com/facebook/react)
 [![sklearn](https://img.shields.io/badge/sklearn-0.24.1-orange)](https://github.com/apachecn/sklearn-doc-zh)
