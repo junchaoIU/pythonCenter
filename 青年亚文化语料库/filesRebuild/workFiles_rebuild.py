@@ -105,4 +105,3 @@ if __name__ == '__main__':
     print(groups)
     for group in groups:
         groupFiles_merge(group)
-
