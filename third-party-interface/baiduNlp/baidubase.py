@@ -4,8 +4,8 @@
 # @FileName: baidubase.py
 # @Software: PyCharm
 # pip --default-timeout=100 install 库名称 -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
 """
-pip --default-timeout=100 install baidu-aip -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
 百度智能情感分析平台api
 （可定制模型，需上传正向语料和负向语料）
 内核基于百度pp飞桨平台下paddlepaddle框架构建的Senta深度情感分析模型算法
@@ -14,9 +14,9 @@ pip --default-timeout=100 install baidu-aip -i http://pypi.douban.com/simple/ --
 from aip import AipNlp
 
 """ 你的 APPID AK SK """
-APP_ID = '23520261'
-API_KEY = 'wM1WVDI4T7vG5kvtwWrwPMO1'
-SECRET_KEY = '9bVGYzw3PRqylNFx3yS8cHC91XoyDEDH'
+APP_ID = ''
+API_KEY = ''
+SECRET_KEY = ''
 
 client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
 
@@ -42,7 +42,6 @@ print("文本内容: "+text+"(情感倾向分析)")
 print("分析结果json: "+str(e))
 
 print("==========================================")
-
 
 # 对话情绪识别
 # 针对用户日常沟通文本背后所蕴含情绪的一种直观检测，可自动识别出当前会话者所表现出的情绪类别及其置信度，可以帮助企业更全面地把握产品服务质量、监控客户服务质量
